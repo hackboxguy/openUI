@@ -3,6 +3,6 @@ for more details, please read my blog at http://albert.-david.blogspot.com/
 
 openUI - This term refers to both h/w and its control software,
 hardware: This is tiny USB hardware based on atmel attiny2313, acting as a user interface to the headless linux box.
-          Headless means, Linux based h/w without any user I/O interface like keyboard and display.
+          Headless means, A Linux box without any user I/O interface(like keyboard and display).
 software: openUI hardware needs a control daemon running on the linux host, this daemon uses libusb library
           functions to communicate with openUI hardware over USB bus.
